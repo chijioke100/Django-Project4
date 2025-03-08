@@ -33,6 +33,9 @@ class Post(models.Model):
      #   return f"Ticket for {self.ticket_holder}"
 
 class Comment(models.Model):
+    #...
+    #challenge = models.SlugField()
+    #...
     post = models.ForeignKey(
         Post, on_delete=models.CASCADE, related_name="comments")
     author = models.ForeignKey(
