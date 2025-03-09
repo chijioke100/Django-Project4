@@ -23,3 +23,7 @@ urlpatterns = [
     #path('blog/', my_blog, name='blog'),
     path("", include("blog.urls"), name="blog-urls"),
 ]
+
+
+
+
