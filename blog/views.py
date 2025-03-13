@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.views import generic
 from .models import Post
 from django.shortcuts import render, get_object_or_404
+from .forms import CommentForm
 #from .models import Event
 #from django.http import HttpResponse
 
